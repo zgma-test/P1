@@ -1,0 +1,75 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "0c72ff85-2fdc-42b2-a0c8-adc10d99bae9": {
+        "id": "0c72ff85-2fdc-42b2-a0c8-adc10d99bae9",
+        "parent": null,
+        "name": "P1",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "a1951ace-3a54-4513-b54b-3c8e45b2ae49"
+        ],
+        "isRemovable": false,
+        "filePath": "P1"
+      },
+      "a1951ace-3a54-4513-b54b-3c8e45b2ae49": {
+        "id": "a1951ace-3a54-4513-b54b-3c8e45b2ae49",
+        "parent": "0c72ff85-2fdc-42b2-a0c8-adc10d99bae9",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "P1/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "rootNode": "0c72ff85-2fdc-42b2-a0c8-adc10d99bae9",
+    "openFiles": [
+      "a1951ace-3a54-4513-b54b-3c8e45b2ae49"
+    ],
+    "currentFileId": "a1951ace-3a54-4513-b54b-3c8e45b2ae49",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "P1",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1576573548194
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "P1",
+      "url": "https://github.com/zgma-test/P1"
+    }
+  }
+}
